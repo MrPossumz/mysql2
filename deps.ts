@@ -1,27 +1,27 @@
 
-export { Buffer } from "https://deno.land/std/node/buffer.ts";
+export { Buffer } from "https://deno.land/std@0.176.0/node/buffer.ts";
 export {
   Socket,
   connect,
   Stream,
-} from "https://deno.land/std/node/net.ts";
-export { EventEmitter } from "https://deno.land/std/node/events.ts";
-export { Readable } from "https://deno.land/std/node/stream.ts";
+} from "https://deno.land/std@0.176.0/node/net.ts";
+export { EventEmitter } from "https://deno.land/std@0.176.0/node/events.ts";
+export { Readable } from "https://deno.land/std@0.176.0/node/stream.ts";
 export {
   createSecureContext,
   TLSSocket,
-} from "https://deno.land/std/node/tls.ts";
-import zlib from "https://deno.land/std/node/zlib.ts";
-export { URL } from "https://deno.land/std/node/url.ts";
+} from "https://deno.land/std@0.176.0/node/tls.ts";
+import zlib from "https://deno.land/std@0.176.0/node/zlib.ts";
+export { URL } from "https://deno.land/std@0.176.0/node/url.ts";
 export {
   createHash,
   publicEncrypt,
   // createCredentials,
   randomBytes,
-} from "https://deno.land/std/node/crypto.ts";
-export type { ErrnoException } from "https://deno.land/std/node/internal/errors.ts";
-export { nextTick } from "https://deno.land/std/node/_process/process.ts";
-export { createServer } from "https://deno.land/std/node/net.ts";
+} from "https://deno.land/std@0.176.0/node/crypto.ts";
+export type { ErrnoException } from "https://deno.land/std@0.176.0/node/internal/errors.ts";
+export { nextTick } from "https://deno.land/std@0.176.0/node/_process/process.ts";
+export { createServer } from "https://deno.land@0.176.0/std/node/net.ts";
 
 // node
 import * as iconv_lite from "https://deno.land/x/iconv_lite/mod.ts";
