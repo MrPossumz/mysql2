@@ -4,6 +4,7 @@ export {
   Socket,
   connect,
   Stream,
+  createServer,
 } from "https://deno.land/std@0.176.0/node/net.ts";
 export { EventEmitter } from "https://deno.land/std@0.176.0/node/events.ts";
 export { Readable } from "https://deno.land/std@0.176.0/node/stream.ts";
@@ -21,7 +22,6 @@ export {
 } from "https://deno.land/std@0.176.0/node/crypto.ts";
 export type { ErrnoException } from "https://deno.land/std@0.176.0/node/internal/errors.ts";
 export { nextTick } from "https://deno.land/std@0.176.0/node/_process/process.ts";
-export { createServer } from "https://deno.land@0.176.0/std/node/net.ts";
 
 // node
 import * as iconv_lite from "https://deno.land/x/iconv_lite/mod.ts";
